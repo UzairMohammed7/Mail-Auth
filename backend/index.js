@@ -1,11 +1,11 @@
-import express from 'express'
 import dotenv from 'dotenv'
-import cors from 'cors'
 import cookieParser from "cookie-parser";
 import path from 'path';
 
 import DbCon from './libs/db.js'
 import AuthRoutes from './routes/auth.routes.js'
+const express = require('express');
+const cors = require('cors');
 
 dotenv.config()
 
