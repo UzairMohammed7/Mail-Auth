@@ -4,9 +4,8 @@ import path from 'path';
 
 import DbCon from './libs/db.js'
 import AuthRoutes from './routes/auth.routes.js'
-const express = require('express');
-const cors = require('cors');
-
+import express from 'express'
+import cors from 'cors'
 dotenv.config()
 
 const app = express()
