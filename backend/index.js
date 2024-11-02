@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve()
 
 // Connect to MongoDB
-app.use(cors({ origin: "https://mail-authenticate.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://mail-authenticate.vercel.app"}));
 
 app.use(express.json()) // allows us to parse incoming requests: req.body 
 app.use(cookieParser()) // allows us to parse cookies from request body and pass them through to server
